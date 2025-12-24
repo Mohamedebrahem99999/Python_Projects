@@ -2,11 +2,6 @@ from random import choice
 import ascii_hangman
 import time
 
-"""This project allowed me to strengthen my understanding of core programming concepts,
- including modular code design with functions, string manipulation, and game loop logic.
-  I focused on creating a clean user experience by integrating ASCII art and handling real-time user input to track remaining trials.
-   It was a great exercise in translating logic into a playable application."""
-
 def update(guessed_word_list,target,user_guess):
     """This function returns updated version of the guessed word"""
     correct_guess_counter = 0
