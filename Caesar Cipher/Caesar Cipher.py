@@ -35,4 +35,5 @@ def main():
 
     print(encrypt(message, shift) if choice == "encrypt"
           else decrypt(message,shift))
-main()
+if __name__ == "__main__":
+    main()
