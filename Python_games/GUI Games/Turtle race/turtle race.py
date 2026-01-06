@@ -1,56 +1,52 @@
 from turtle import Turtle, Screen
 import random
-def main():
-    window = Screen()
-    window.bgcolor("lightblue")
-    window.title("Unit Project")
 
-    wr = Turtle()
-    wr.hideturtle()
+window = Screen()
+window.bgcolor("orange")
+window.title("Turtle race")
 
-    def turtles(turt,colour,y_coordinate):
-        turt.color(colour)
-        turt.penup()  # pull the pen up while drawing
-        turt.goto(-320, y_coordinate)
-        turt.speed("slowest")
+wr = Turtle()
+wr.hideturtle()
+class Turtles (Turtle) :
+    def __init__(self,colour):
+        super().__init__()
+        self.shape("turtle")
+        self.color(colour)
+        self.penup()  # pull the pen up while drawing
+        self.speed("slowest")
 
-    sam = Turtle(shape ="turtle")
-    turtles(sam,"yellow",window.window_height()/2-20)
+sam = Turtles(colour = "yellow")
+jack = Turtles(colour = "blue")
+john = Turtles(colour = "black")
 
-    jack = Turtle(shape ="turtle")
-    turtles(jack,"blue",0)
+n = 50
+for turtle in [sam,jack,john]:
+    turtle.goto(-300, 50 + n)
+    n -=100
 
-    john = Turtle(shape ="turtle")
-    turtles(john,"black",-window.window_height()/2+20)
-
-    guess =  window.textinput("Make your bet",
+guess =  window.textinput("Make your bet",
+                 "Guess the winner\nType a color: yellow, blue or black?").strip().lower()
+while guess not in (sam.color()[0],jack.color()[0],john.color()[0]):
+    guess = window.textinput("Make your bet",
                      "Guess the winner\nType a color: yellow, blue or black?").strip().lower()
-    while guess not in (sam.color()[0],jack.color()[0],john.color()[0]):
-        guess = window.textinput("Make your bet",
-                         "Guess the winner\nType a color: yellow, blue or black?").strip().lower()
 
-    def res(tur):
-        if guess != tur.color()[0]:
-            window.bgcolor("red")
-            wr.write(f"You lose\n{tur.color()[0]} won", font=("Arial", 25, "normal"), align="center")
-        else:
-            window.bgcolor("green")
-            wr.write(f"{tur.color()[0]} won", font=("Arial", 25, "normal"), align="center")
+def res(turtle):
+    if guess != turtle.color()[0]:
+        window.bgcolor("red")
+        wr.write(f"You lose\n{turtle.color()[0]} won", font=("Arial", 25, "normal"), align="center")
+    else:
+        window.bgcolor("green")
+        wr.write(f"{turtle.color()[0]} won", font=("Arial", 25, "normal"), align="center")
 
-    def over(tu) :
-        tu.forward(random.choice(list(range(1, 10))))
-        if tu.xcor() >= 300:
-            res(tu)
+def over(*components) :
+    for component in components:
+        component.forward(random.randint(1, 10))
+        if component.xcor() >= 300:
+            res(component)
+            return False
+    return True
 
-    while sam.xcor() < 300 and jack.xcor() < 300 and john.xcor() < 300 :
-        over(john)
-        if john.xcor() >= 300 :
-            break
-        over(sam)
+while over(sam,john,jack):
+    continue
 
-        if sam.xcor() >= 300:
-            break
-        over(jack)
-    window.exitonclick()
-if __name__ == "__main__":
-    main()
+window.exitonclick()
