@@ -69,6 +69,3 @@ class Snake:
             self.steps = 3
 
             self.snake_parts = self.snake_parts[:self.initial_number_of_parts]
-
-
-        return True

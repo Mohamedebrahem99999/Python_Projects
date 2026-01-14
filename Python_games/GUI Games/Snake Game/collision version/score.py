@@ -6,8 +6,6 @@ class Score(Turtle):
         self.penup()
         self.color("white")
         self.score = 0
-
-
         self.update_scoreboard(0)
 
     def update_scoreboard(self,score):
@@ -36,5 +34,3 @@ class Score(Turtle):
         self.clear()
         self.score = 0
         self.update_scoreboard(self.score)
-
-

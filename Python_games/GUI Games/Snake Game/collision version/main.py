@@ -11,14 +11,12 @@ window.tracer(0)
 w = window.window_width()/2
 h = window.window_height()/2
 
-
 user_score = Score()
 sam = Snake(3, 10)
 food = Food()
 
 head = sam.head
 window.update()
-
 
 def main() :
     window.listen()
@@ -27,6 +25,7 @@ def main() :
     window.onkey(sam.move_left, "Left")
     window.onkey(sam.move_up, "Up")
     window.onkey(sam.move_down, "Down")
+
     while True:
         #If the snake collides the walls, the game is over
         if  head.xcor() >= w or head.xcor() <= -w or head.ycor() >= h or head.ycor() <= -h+55:
