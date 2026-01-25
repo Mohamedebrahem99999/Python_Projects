@@ -7,30 +7,35 @@ I’m aspiring software developer who loves building tools that make people's li
 ---
 
 ### 🚀 What I’m Working On
-* 🔭 **Current Project:** [Ping Pong Game Project](link) - A brief description of what it does.
-* 🌱 **Learning:** Currently diving deep into [Language/Framework, e.g., Rust or System Design].
-* 💬 **Ask me about:** [Topics you know well, e.g., React, Python, or UI/UX].
-* ⚡ **Fun Fact:** [Something non-work related, e.g., I have a collection of 50 mechanical keyboards].
+
+- 🔭 **Current Project:** [Ping Pong Game Project](https://github.com/Mohamedebrahem99999/Python_Projects/tree/main/Python_games/GUI%20Games/Ping%20Pong) -I'm currently working on the Ping Pong game which is a hands-on practice on the OOP concepts using python turtle module.
+- 🌱 **Learning:** Currently diving deep into OOPand data structure using python and c++ languages and database.
+- 💬 **Ask me about:** programming fundamentals/OOP/python/python turtle module/c++.
 
 ---
 
 ### 💻 Tech Stack & Tools
 
-| Category | Tools |
-| :--- | :--- |
-| **Languages** | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black) ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
-| **Frameworks** | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white) |
-| **Tools** | ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-232F3E?logo=amazon-aws&logoColor=white) |
+### 💻 Tech Stack & Learning Tools
+
+| Category        | Skills & Tools                                                                                                                                                                                                   |
+| :-------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Languages**   | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)       |
+| **Foundations** | ![OOP](https://img.shields.io/badge/OOP-Principles-blue?style=for-the-badge) ![Data Structures](https://img.shields.io/badge/Data_Structures-Foundations-orange?style=for-the-badge)                             |
+| **Database**    | ![Database](https://img.shields.io/badge/Database-Intro_&_Design-lightgrey?style=for-the-badge&logo=databricks&logoColor=white)                                                                                  |
+| **Tools**       | ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) |
 
 ---
 
 ### 📊 My GitHub Stats
+
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME-HERE&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME-HERE&layout=compact&theme=radical)
 
 ---
 
 ### 📫 Let's Connect
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-PROFILE)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/YOUR-HANDLE)
-[![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white)](mailto:your-email@example.com)
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white)](www.linkedin.com/in/mohammed-mohamed-b06016366)
+
+[![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white)](jshdheh33i38@gmail.com)
